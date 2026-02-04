@@ -121,3 +121,7 @@ h1 {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
+.todo-item span:hover {
+  color: #1976d2;
+}
