@@ -50,7 +50,8 @@ function App() {
         <input
           type="text"
           value={text}
-          placeholder="Enter a task"
+          placeholder="What do you want to do today?"
+
           onChange={(e) => setText(e.target.value)}
         />
         <button onClick={addTodo}>Add</button>
